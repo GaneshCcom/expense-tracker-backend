@@ -38,7 +38,7 @@ const app = express();
 // ✅ CORS Configuration (allow frontend URLs)
 const allowedOrigins = [
   "http://localhost:5173", // Vite dev server
-  "https://expense-tracker-system-s.netlify.app/" // Your Netlify frontend
+  "https://expense-tracker-system-s.netlify.app" // Your Netlify frontend
 ];
 
 app.use(cors({
